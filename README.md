@@ -2,6 +2,8 @@
 
 This is my first website in HTML I have coded. It started in a camp, and I started expanded on it. Unfortunately, it had many bad pracitcs in it and didn't look very well. The website will soon be refactored to match HTML5 practices and improve appearance. This is for my private use, but, as it is open source, I am open to any improvements, feedback, issue, pull reuqest, and contributions. 
 
+The website home page can be found [here](HomePage.html).
+
 ## Attributions ##
 
 ### Favicon ###
@@ -12,5 +14,5 @@ This is my first website in HTML I have coded. It started in a camp, and I start
 	<img width = "512" alt = "Alaunkristall03" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Alaunkristall03.JPG/512px-Alaunkristall03.JPG">
 </a>
 
-<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/03df72b3d7c533c1c265d659f494c3f88318d1ff/script.js">
+<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/03df72b3d7c533c1c265d659f494c3f88318d1ff/script.js"></script>
 

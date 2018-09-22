@@ -1,0 +1,17 @@
+html, body { 
+	background-color: orange;
+	text-align: center;
+	height: 100%;
+}
+
+a { 
+	display: block;
+	height: 10%;
+	margin: 0.5%;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-size: 3em;
+	text-decoration: underline;
+}
