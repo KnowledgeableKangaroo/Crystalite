@@ -1,17 +1,59 @@
+<!DOCTYPE html>
 <html>
-<title>
-My Visual Puns
-</title>
-<center>
-<body bgcolor = "orange">
-<head>
-<font size = 7 color = "red" face = monospace><p>My Visual Puns</font></p>
-</head>
-<h1><p><a href = Webpages/pun1.html>Visual Pun #1</p></h1></a>
-<h1><p><a href = VisualPuns/pun2.html> Visual Pun #2</p></a></h1>
-<h2><p><a href = "Let's get puny.html"> Let's Get Punny</p></a>
-<p><a href = myfirstpage1.html> Home</p></a></h2>
-</center>
-</body>
+	<head>
+		<meta charset = "utf-8">
+		<title>Visual Puns</title>
+		<style>
+			html, body { 
+				background-color: orange;
+				text-align: center;
+				height: 100%;
+			}
 
+			a { 
+				display: block;
+				box-sizing: border-box;
+				height: 15%;
+				margin: 1%;
+				font-size: 1.5em;
+			}
+
+			h1 {
+				font-size: 3em;
+				text-decoration: underline;
+			}
+
+			#visualPuns * {
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+				width: 12%;
+			}
+
+			#visualPuns {
+				text-align: left;
+			}
+
+			#menu-links * {
+				display: inline-block;
+			}
+
+			#menu-links {
+
+			}
+		</style>
+	</head>
+	<body>
+		<h1> Visual Puns </h1>
+		<div id = "visualPuns">
+			<a href = "Webpages/pun1.html"> Visual Pun #1 </a>
+			<a href = "VisualPuns/pun2.html"> Visual Pun #2 </a>
+		</div>
+		<div id = "menu-links">
+			<a href = "Let's get puny.html"> Let's Get Punny </a>
+			<a href = "myfirstpage1.html"> Home </a>
+		</div>
+		<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/03df72b3d7c533c1c265d659f494c3f88318d1ff/script.js"></script>
+	</body>
 </html>
+
