@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset = "utf-8">
-		<title>
-			Landscape Mistakes
-		</title>
-		<style>
-			body {
-			text-align: center;
-			background-color: #E5E4E2;
-			}
-			a {
-			font-size: 30px;
-			}
-		</style>
+		<title> Landscape Mistakes </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel = "shortcut icon" type = "image/x-icon" href = "../images/icon.ico">
+		<link rel = "stylesheet" href = "../style/header.css" type = "text/css">
+		<link rel = "stylesheet" href = "../style/style.css" type = "text/css">
 	</head>
 	<body>
-		<header> Landscape Mistakes </header>
-		<font color = purple size = 8><p> Can you spot the 5 differences?</p></font>
-		<img src = "../Images/N5.jpg">
-		<font size = 7><p>This is the Original Picture
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		This is the Edited Picture</p></font>
-		<a href = "../SpotTheDifferences.html">Spot the 5 Differences Menu</a><br>
-		<a id = "homeLink" href ="../myfirstpage1.html">Home</a>
-		<script>
-			var homeLink = document.querySelector('#homeLink');
-			homeLink.href = "HomePage.html";
-			homeLink.textContent = "Home";
-		</script>
+		<a style = "text-decoration: none;" href = "../HomePage.html"><div class = "jumbotron">
+			<h2> Crystalite</h2>
+		</div></a>
+
+		<h1> Landscape Mistakes </h1>
+
+		<p align = "center"> Can you spot the 5 differences?</p>
+		<img id = "pic" src = "../Images/N5.jpg">
+		<p id = "pic-caption"></p>
+
+		<a href = "../SpotTheDifferences.html">Spot the 5 Differences Menu</a>
+		<a href ="../HomePage.html">Home</a>
 	</body>
 </html>
