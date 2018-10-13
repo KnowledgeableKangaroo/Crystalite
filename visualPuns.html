@@ -18,24 +18,31 @@
 			#menu-links * {
 				display: inline-block;
 			}
-
-			#menu-links {
-
-			}
 		</style>
-		<link href = "style.css" rel = "stylesheet" type = "text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href = "style/style.css" rel = "stylesheet" type = "text/css">
+		<link href = "style/header.css" rel = "stylesheet" type = "text/css">
 	</head>
 	<body>
+		<a style = "text-decoration: none;" href = "HomePage.html"><div class = "jumbotron">
+			<h2> Crystalite</h2>
+		</div></a>
 		<h1> Visual Puns </h1>
-		<div id = "visualPuns">
-			<a href = "Webpages/pun1.html"> Visual Pun #1 </a>
-			<a href = "VisualPuns/pun2.html"> Visual Pun #2 </a>
-		</div>
+		<div id = "visualPuns"></div>
 		<div id = "menu-links">
 			<a href = "Let's get puny.html"> Let's Get Punny </a>
 			<a href = "myfirstpage1.html"> Home </a>
 		</div>
-		<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/03df72b3d7c533c1c265d659f494c3f88318d1ff/script.js"></script>
+		<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/master/script.js"></script>
+		<script>
+			const divParent = document.getElementById("visualPuns");
+			for (let i = 1; i <= 8; i++) {
+				let a1 = document.createElement("a");
+				a1.href = "VisualPuns/pun" + i + ".html";
+				a1.innerHTML = "Visual Pun #" + i;
+				divParent.appendChild(a1);
+			}
+		</script>
 	</body>
 </html>
 
