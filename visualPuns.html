@@ -1,17 +1,47 @@
+<!DOCTYPE html>
 <html>
-<title>
-My Visual Puns
-</title>
-<center>
-<body bgcolor = "orange">
-<head>
-<font size = 7 color = "red" face = monospace><p>My Visual Puns</font></p>
-</head>
-<h1><p><a href = Webpages/pun1.html>Visual Pun #1</p></h1></a>
-<h1><p><a href = VisualPuns/pun2.html> Visual Pun #2</p></a></h1>
-<h2><p><a href = "Let's get puny.html"> Let's Get Punny</p></a>
-<p><a href = myfirstpage1.html> Home</p></a></h2>
-</center>
-</body>
+	<head>
+		<meta charset = "utf-8">
+		<title>Visual Puns</title>
+		<style>
+			#visualPuns * {
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+				width: 12%;
+			}
 
+			#visualPuns {
+				text-align: left;
+			}
+
+			#menu-links * {
+				display: inline-block;
+			}
+		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href = "css/style.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/header.css" rel = "stylesheet" type = "text/css">
+	</head>
+	<body>
+		<a style = "text-decoration: none;" href = "HomePage.html"><div class = "jumbotron">
+			<h2> Crystalite</h2>
+		</div></a>
+		<h1> Visual Puns </h1>
+		<div id = "visualPuns"></div>
+		<div id = "menu-links">
+			<a href = "LetsGetPunnyMenu.html"> Let's Get Punny </a>
+		</div>
+		<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/master/script.js"></script>
+		<script>
+			const divParent = document.getElementById("visualPuns");
+			for (let i = 1; i <= 8; i++) {
+				let a1 = document.createElement("a");
+				a1.href = "VisualPuns/pun" + i + ".html";
+				a1.innerHTML = "Visual Pun #" + i;
+				divParent.appendChild(a1);
+			}
+		</script>
+	</body>
 </html>
+

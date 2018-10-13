@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset = "utf-8">
-<title> 
-Housekeeping Mix-up
-</title>
-<style>
-body {
-text-align: center;
-background-color: #E5E4E2;
-}
-</style>
-<header>Housekeeping Mix-up</header>
-</head>
-<body>
-<center>
-<font color = purple size = 10><p> Can you spot the 5 differences?</p></font>
-<img src = "../Images/N3.jpg">
-<font size = 6><p>This is the Original Picture
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This is the Edited Picture</p></font>
-<a href = "../SpotTheDifferences.html">Spot the 5 Differences Menu</a><br>
-<a id = "homeLink" href ="../myfirstpage1.html">Home</a>
-</center>
-<script>
-var homeLink = document.querySelector('#homeLink');
-homeLink.href = "HomePage.html";
-homeLink.textContent = "Home";
-</script>
-</body>
+	<head>
+		<title> HouseKee[ing Mixup </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel = "shortcut icon" type = "image/x-icon" href = "images/icon.ico">
+		<link rel = "stylesheet" href = "../css/header.css" type = "text/css">
+		<link rel = "stylesheet" href = "../css/style.css" type = "text/css">
+	</head>
+	<body>
+		<a style = "text-decoration: none;" href = "../HomePage.html"><div class = "jumbotron">
+			<h2> Crystalite</h2>
+		</div></a>
+
+		<h1>Housekeeping Mixup</h1>
+
+		<p align = "center"> Can you spot the 5 differences?</p>
+		<img id = "pic" src = "../Images/N3.jpg">
+		<p id = "pic-caption"></p>
+
+		<a href = "../SpotTheDifferences.html">Spot the 5 Differences Menu</a>
+		<a href ="../HomePage.html">Home</a>
+	</body>
 </html>
