@@ -16,5 +16,8 @@ The website home page can be found [here](HomePage.html).
 	<img width = "512" alt = "Alaunkristall03" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Alaunkristall03.JPG/512px-Alaunkristall03.JPG">
 </a>
 
-<script src = "https://cdn.rawgit.com/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/03df72b3d7c533c1c265d659f494c3f88318d1ff/script.js"></script>
+<script src = "https://cdn.jsdelivr.net/gh/KnowledgeableKangaroo/KnowledgeableKangaroo.github.io/script.js"></script>
+<script>
+	createLinkElement('image/x-icon', 'shortcut icon', 'Images/icon.ico')
+</script>
 
